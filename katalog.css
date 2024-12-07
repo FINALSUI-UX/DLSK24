@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Second Header */
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    position: sticky;
+    width: 100%;
+    top: 75px;
+    z-index: 999;
+}
+
+.sub-header h1 {
+    font-size: 20px;
+    color: #333;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.sub-header-katalog {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.tabs {
+    margin: 10px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 20px 120px; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card2 {
+    width: 260px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 16px;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+
+.card2-content {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--color-black);
+}
+
+.card2-content a {
+    text-decoration: none;
+}
+
+.card2-content p {
+    color: #453B35;
+    font-size: 14px;
+}
+
+.card-button {
+    margin-left: auto;
+    background-color: #d02d27;
+    color: var(--color-white);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card-button i {
+    text-align: center;
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.tab{
+    padding-right: 50px;
+}
+
+.tab-link {
+    text-align: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.tab-link.active {
+    border-bottom: 2px solid #E60013;
+    color: #E60013;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.catalog {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.catalog .catalog-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 230px);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Product Card */
+.catalog-item {
+    width: 250px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.catalog-item img {
+    width: 250px;
+    height: 240px;
+}
+
+.catalog-item .info-box {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-item .info-box .product-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catalog-item .info-box .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.catalog-item .info-box .product-description {
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.catalog-item .info-box button {
+    background-color: #E60013;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.catalog-item .info-box button i {
+    font-size: 12px;
+}
+
+
+.catalog-item .info-box button:hover {
+    background-color: #a9221f;
+}
+
+/* Grid Layout */
+.catalog .catalog-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 products per row */
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .catalog .catalog-items {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

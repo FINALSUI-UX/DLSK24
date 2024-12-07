@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="katalog.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DLSK Printing</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <nav class="navbar">
+            <div class="menu_bar">
+                <div>
+                    <a href="index.html">
+                        <img class="logo" src="images/logo dlsk.png">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="hover">Beranda</a></li>
+                    <!-- <li><a href="index.html#tentang" id="about" class="hover">Tentang kami</a></li> -->
+                    <li><a href="katalog.html" class="active">Katalog</a></li>
+                    <li><a href="mesin.html" class="hover">Mesin</a></li>
+                    <li><a href="jasadesain.html" class="hover">Jasa Design</a></li>
+                </ul>
+
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="sub-header">
+            <h1>Katalog</h1>
+
+            <div class="tab">
+                <button class="tablinks active" onclick="openTab(event, 'digital2')">Digital printing</button>
+                <button class="tablinks" onclick="openTab(event, 'offset2')">Offset printing</button>
+            </div>
+            <span class="sub-header-katalog">Produk</span>
+        </div>
+
+        <div id="digital2" class="tabcontent">
+            <div class="card-container">
+
+                <div class="card2">
+                    <a href="digital-kalendarr.html"><img src="Product/Digital Printing/Calendar.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-kalendarr.html">
+                                <h3>Kalendar</h3>
+                            </a>
+                            <a href="digital-kalendarr.html">
+                                <p>Kalender dengan desain menarik dan kualitas cetakan terbaik, sempurna untuk promosi atau hadiah perusahaan.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-businesscard.html"><img src="Product/Digital Printing/Business Card.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-businesscard.html">
+                                <h3>Kartu Nama</h3>
+                            </a>
+                            <a href="digital-businesscard.html">
+                                <p> Kartu nama elegan dengan desain custom, memberikan kesan profesional dan mudah diingat.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-envelope.html"><img src="Product/Digital Printing/Envelope.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-envelope.html">
+                                <h3>Amplop</h3>
+                            </a>
+                            <a href="digital-envelope.html">
+                                <p>Amplop dengan berbagai pilihan ukuran dan desain, cocok untuk keperluan resmi atau pengiriman surat perusahaan.
+
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-folder.html"><img src="Product/Digital Printing/Folder.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-folder.html">
+                                <h3>Folder</h3>
+                            </a>
+                            <a href="digital-folder.html">
+                                <p> Folder profesional untuk menyimpan dokumen, dengan desain yang menarik dan bahan berkualitas tinggi.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+
+                <div class="card2">
+                    <a href="digital-magazine.html"><img src="Product/Digital Printing/Magazine.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-magazine.html">
+                                <h3>Majalah</h3>
+                            </a>
+                            <a href="digital-magazine.html">
+                                <p>Majalah cetakan dengan layout menarik dan kualitas gambar tajam, ideal untuk media komunikasi atau promosi.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-menubook.html"><img src="Product/Digital Printing/Menu Book.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-menubook.html">
+                                <h3>Buku Menu</h3>
+                            </a>
+                            <a href="digital-menubook.html">
+                                <p>Menu dengan desain unik dan elegan, membuat pengalaman makan pelanggan semakin menyenangkan.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-notebook.html"><img src="Product/Digital Printing/Notebook.jpg"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-notebook.html">
+                                <h3>Notebook</h3>
+                            </a>
+                            <a href="digital-notebook.html">
+                                <p>Notebook dengan sampul custom dan kualitas kertas terbaik, cocok untuk catatan pribadi atau kebutuhan kantor.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="digital-stiker.html"><img src="Product/Digital Printing/Sticker.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="digital-stiker.html">
+                                <h3>Stiker</h3>
+                            </a>
+                            <a href="digital-stiker.html">
+                                <p>Sticker dengan berbagai ukuran dan desain yang dapat disesuaikan, ideal untuk promosi atau hadiah menarik.</p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="offset2" class="tabcontent">
+            <div class="card-container">
+                <div class="card2">
+                    <a href="offset-backdrop.html"><img src="Product/Offset Printing/Backdrop Banner.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-backdrop.html">
+                                <h3>Backdrop Banner</h3>
+                            </a>
+                            <a href="offset-backdrop.html">
+                                <p>Backdrop banner dengan desain menarik dan material tahan lama, ideal untuk acara, pameran, atau promosi.
+
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-buku.html"><img src="Product/Offset Printing/Book.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-buku.html">
+                                <h3>Buku</h3>
+                            </a>
+                            <a href="offset-buku.html">
+                                <p>Buku dengan cetakan berkualitas tinggi dan desain yang rapi, cocok untuk penerbitan, panduan, atau materi edukasi.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-flag.html"><img src="Product/Offset Printing/Flag Banner.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-flag.html">
+                                <h3>Flag Banner</h3>
+                            </a>
+                            <a href="offset-flag.html">
+                                <p>Flag banner dengan desain kreatif, ideal untuk promosi luar ruang atau acara yang membutuhkan tampilan yang mencolok.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-flyer.html"><img src="Product/Offset Printing/Flyer.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-flyer.html">
+                                <h3>Flyer</h3>
+                            </a>
+                            <a href="offset-flyer.html">
+                                <p>Flyer informatif dengan desain yang eye-catching, efektif untuk distribusi promosi atau informasi produk.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card2">
+                    <a href="offset-foodpack.html"><img src="Product/Offset Printing/Food Packaging.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-foodpack.html">
+                                <h3>Packaging Makanan</h3>
+                            </a>
+                            <a href="offset-foodpack.html">
+                                <p>Kemasan makanan yang higienis dan menarik, menjaga kualitas produk serta memberikan kesan profesional.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-paperbag.html"><img src="Product/Offset Printing/Paper Bag.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-paperbag.html">
+                                <h3>Paper Bag</h3>
+                            </a>
+                            <a href="offset-paperbag.html">
+                                <p>Tas kertas ramah lingkungan dengan desain custom, sempurna untuk kebutuhan promosi atau kemasan produk.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-pharmacy.html"><img src="Product/Offset Printing/Pharmacy Packaging.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-pharmacy.html">
+                                <h3>Packaging Farmasi</h3>
+                            </a>
+                            <a href="offset-pharmacy.html">
+                                <p>Kemasan farmasi dengan standar keamanan dan kualitas tinggi, menjaga integritas produk farmasi.
+                                </p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <a href="offset-standing.html"><img src="Product/Offset Printing/Standing Banner.png"></a>
+                    <div class="card-content">
+                        <div class="text-content">
+                            <a href="offset-standing.html">
+                                <h3>Standing Banner</h3>
+                            </a>
+                            <a href="offset-standing.html">
+                                <p> Standing banner praktis dan mudah dipasang, cocok untuk event, pameran, atau kebutuhan promosi lainnya.</p>
+                            </a>
+                        </div>
+                        <button class="card-button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+
+            <div class="footerNav">
+                <div class="alamat">
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/b54pNMJUzBdKKYJ98" target="_blank">Alamat: Jl. Kedoya
+                                Pesing No.Kav 27 A
+                                No.G1 - G4, RT.1/RW.1, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus
+                                Ibukota Jakarta 11520</a></li>
+                    </ul>
+                </div>
+                <div class="Telp">
+                    <ul>
+                        <li><a href="">Telp: (021) 5602655</a></li>
+                    </ul>
+                </div>
+                <div class="email">
+                    <ul>
+                        <li><a href="https://youtu.be/xvFZjo5PgG0?si=1WTHB9KYW7j4XAlS" target="_blank">Email:
+                                dlsk@gmail.co.id</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright ©2023; All rights reserved to PT. Dianlestari Solusi Kreatif</p>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none"; // Hide all tab content
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", ""); // Remove active class from all tabs
+            }
+            document.getElementById(tabName).style.display = "block"; // Show the selected tab content
+            evt.currentTarget.className += " active"; // Add active class to the clicked tab
+        }
+
+        // Function to handle tab opening based on URL hash
+        function openTabFromHash() {
+            var hash = window.location.hash.substring(1); // Get the hash without the '#'
+            if (hash) {
+                // Open the tab corresponding to the hash
+                var tabButton = document.querySelector(`.tablinks[onclick*="${hash}"]`);
+                if (tabButton) {
+                    openTab({ currentTarget: tabButton }, hash); // Pass the button event to openTab
+                }
+            } else {
+                // Default to the Digital tab if no hash is present
+                var defaultTabButton = document.querySelector('.tablinks[onclick*="digital2"]');
+                if (defaultTabButton) {
+                    openTab({ currentTarget: defaultTabButton }, 'digital2'); // Pass the button event to openTab
+                }
+            }
+        }
+
+        // Call the function to open the tab based on the URL hash when the page loads
+        window.onload = openTabFromHash;
+    </script>
+</body>
+
+</html>

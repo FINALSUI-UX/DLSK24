@@ -1,0 +1,224 @@
+:root {
+    --color-brightred: #d02d27;
+    --color-white: #F5F5F5;
+    --color-black: #181823;
+    --color-darkred: #80000B;
+    --color-grey: #8A8A9B;
+    --color-lighgrey: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Inter', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-white);
+    width: 100%;
+}
+
+/* mesin */
+.bannermesin-page {
+    width: auto;
+    max-width: 100vw;
+    height: auto;
+    /* overflow: hidden; */
+    text-align: center;
+    justify-content: center;
+}
+
+.bannermesinfoto {
+    background-color:var(--color-brightred);
+    text-align: center;
+    padding: 100px;
+    background-image: url(images/bannermesinfnl.png);
+    color: #f5f5f5;
+
+}
+
+.inner-mesin-page {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-desc-mesin-page {
+    width: 100%;
+}
+
+.elemen-mesin-page {
+    padding-bottom: 50px;
+}
+
+.desc-mesin-page {
+    font-size: 20px;
+    text-align: left;
+    text-align: justify;
+}
+
+.carousel-mesin-page {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannermesin1{
+    width: 100%;
+}
+
+.foto-mesin {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.carousel-mesin-page :hover {
+    background-color: #d8d8d8;
+}
+
+.bannermesinfoto1{
+    background-color: var(--color-brightred);
+    text-align: center;
+    padding: 100px;
+    background-image: url(images/kebakarjiadsjad\ copy.png);
+    color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-mesin1{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-desc-mesin1{
+    width: 100%;
+}
+
+.desc-mesin1{
+    /* padding-top: 50px; */
+    font-size: 30px;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+.carousel-mesin1{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.inner-mesin2{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-desc-mesin2{
+    width: 100%;
+}
+
+.desc-mesin2{
+    /* padding-top: 50px; */
+    font-size: 30px;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.carousel-mesin2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.back-button-mesin {
+    padding-left: 172px;
+    padding-top: 50px;
+}
+
+.back-button-mesin a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+      background-color: var(--color-white);
+      color: var(--color-darkred);
+      padding: 5px 24px;
+      border: 2px solid var(--color-brightred); /* Green */
+      border-radius: 4px;
+
+}
+
+.back-button-mesin a:hover {
+  background-color: var(--color-brightred);
+  color: var(--color-white);
+}
+
+.previous {
+  background-color:var(--color-grey);
+  color: var(--color-white);
+  border-radius: 4px;
+}
+
+@media (max-width: 1600px) {
+    .bannermesinfoto{
+        padding: 0px;
+        height: 120px;
+        text-align: center;
+    }
+    .inner-mesin-page{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /* h1{
+        margin-top: 30px;
+    } */
+}
+
+@media (max-width: 1600px) {
+    .bannermesinfoto{
+        padding: 110px;
+        height: 264px;
+        text-align: center;
+    }
+    .desc-mesin1 p{
+        font-size: 20px;
+    }
+    .desc-mesin-page p{
+        font-size: 20px;
+    }
+}
